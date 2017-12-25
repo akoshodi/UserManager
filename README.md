@@ -25,6 +25,12 @@ DB_URL='mongodb://john:doe@localhost:27017/databaseName'
 To ensure that your installation is successful you'll need to run tests.
 The command: `npm test` makes this possible. It isn't functional right now, but once it's done you'll be notified via the README.
 
+### Launch Application
+* To launch appliction in docker container, install docker and docker-compose on your machine and fork the application repository
+* Make 'run.sh' script executable (chmod +x run.sh)
+* Execute run.sh script
+
+
 ### API Documentation
 The API only has one endpoint which is the `/users` endpoint for saving users to the database. The endpoint works with the HTTP verbs: `POST`, `GET`, `PUT`, `DELETE`.
 
